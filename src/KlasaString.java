@@ -38,7 +38,7 @@ public class KlasaString {
             zbroj += ocjena;
         }
 
-        double  prosjek = zbroj / brojOcjena;
+        double  prosjek = (double) zbroj / brojOcjena;
         System.out.println("Prosjek ocjena je: " + prosjek);
 
 
