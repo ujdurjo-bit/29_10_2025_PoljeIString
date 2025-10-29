@@ -34,6 +34,7 @@ public class KlasaString {
 
         for (int i = 0; i < brojOcjena; i++) {
             System.out.println("Unesite ocjenu " + (i + 1));
+
             int ocjena = Integer.parseInt(sc.nextLine());
             zbroj += ocjena;
         }
