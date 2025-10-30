@@ -13,7 +13,7 @@ public class ZadatakDR {
 //Zadatak 2: Napišite program koji ispisuje je li uneseni broj savršen ili ne. Zatražite korisnika unos broja ili interval brojeva koji želi provjeriti.
 // Savršen broj je broj koji je jednak zbroju svojih djelitelja (bez njega samoga). Npr. 6 (1 + 2 + 3 = 6)
 
-            Scanner sc = new Scanner(System.in);
+/*            Scanner sc = new Scanner(System.in);
             System.out.print("Unesite broj koji želite provjeriti");
 
             int broj = Integer.parseInt(sc.nextLine());
@@ -36,7 +36,26 @@ else {
 
 
 
+            }*/
+
+            //Zadatak 3: Napišite program koji traži unos godine i ispisuje je li ta godina prijestupna ili ne.
+            //Godina je prijestupna ako je djeljiva sa 4, nije djeljiva sa 100, osim ako je djeljiva sa 400.*/
+
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Provjera godine?");
+
+                int godina = sc.nextInt();
+
+            if ((godina % 4 == 0 && godina % 100 != 0 ) || (godina % 400 == 0)) {
+                System.out.print(godina + " godina je prijestupna godina.");
             }
+            else {
+                System.out.print(godina + " godina nije prijestupna godina.");
+            }
+
+
+
+        }
         }
 
 
